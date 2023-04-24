@@ -1,1 +1,1 @@
-alert udp any 3671 -> any any (msg:"reply connect To KNX Device fail"; sid:20001; rev:1;)
+alert udp any 3671 -> any any (msg:"reply connect To KNX Device fail"; classtype:bad-unknown; sid:20001; rev:1;)
