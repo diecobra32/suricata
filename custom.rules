@@ -1,0 +1,1 @@
+alert udp 192.168.1.101 3671 -> any any (msg:"reply connect To KNX Device fail"; sid:20001; pkt_data; content:"|2E 00 91|"; offset:10; depth:3;)
